@@ -1,0 +1,6 @@
+@ForWhile_HostAddress = http://localhost:5002
+
+GET {{ForWhile_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
