@@ -20,6 +20,11 @@ namespace ForWhile.Domain.Repository
             return await GetAll(includeProperties).FirstOrDefaultAsync(x => x.Id.Equals(id));
         }
 
+        public virtual async Task<T?> GetByIdAsync(int id, IQueryable<T> query)
+        {
+            return await query.FirstOrDefaultAsync(x => x.Id.Equals(id));
+        }
+
         public virtual async Task<T?> GetSingleAsync(Expression<Func<T, bool>> predicate)
         {
             var query = await GetAllAsync(predicate);
@@ -51,9 +56,6 @@ namespace ForWhile.Domain.Repository
         {
             IQueryable<T> query = _dbContext.Set<T>();
 
-            // Total page
-            int totalPage = (await query.CountAsync(predicate)) / pageSize + 1;
-
             if (includeProperties != null)
             {
                 foreach (var includeProperty in includeProperties)
@@ -61,6 +63,16 @@ namespace ForWhile.Domain.Repository
                     query = query.Include(includeProperty);
                 }
             }
+
+            return await GetAllAsync(query, predicate, orderBy, sortDirection, pageIndex, pageSize);
+        }
+
+
+        public virtual async Task<PagedResult<T>> GetAllAsync(IQueryable<T> query, Expression<Func<T, bool>> predicate,
+            Expression<Func<T, object>> orderBy, SortDirection sortDirection, int pageIndex, int pageSize)
+        {
+            // Total page
+            int totalPage = (await query.CountAsync(predicate)) / pageSize + 1;
 
             var result = new PagedResult<T> { TotalPages = totalPage };
 

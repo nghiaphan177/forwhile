@@ -1,0 +1,8 @@
+version: '3.4'
+
+services:
+  forwhile:
+    image: ${DOCKER_REGISTRY-}forwhile
+    build:
+      context: .
+      dockerfile: ForWhile/Dockerfile

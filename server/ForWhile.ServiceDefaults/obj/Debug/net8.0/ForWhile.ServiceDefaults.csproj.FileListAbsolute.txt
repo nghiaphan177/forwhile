@@ -1,0 +1,13 @@
+C:\Users\ThanhNghia\Desktop\ForWhile\server\ForWhile.ServiceDefaults\bin\Debug\net8.0\ForWhile.ServiceDefaults.deps.json
+C:\Users\ThanhNghia\Desktop\ForWhile\server\ForWhile.ServiceDefaults\bin\Debug\net8.0\ForWhile.ServiceDefaults.dll
+C:\Users\ThanhNghia\Desktop\ForWhile\server\ForWhile.ServiceDefaults\bin\Debug\net8.0\ForWhile.ServiceDefaults.pdb
+C:\Users\ThanhNghia\Desktop\ForWhile\server\ForWhile.ServiceDefaults\obj\Debug\net8.0\ForWhile.ServiceDefaults.csproj.AssemblyReference.cache
+C:\Users\ThanhNghia\Desktop\ForWhile\server\ForWhile.ServiceDefaults\obj\Debug\net8.0\ForWhile.ServiceDefaults.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ThanhNghia\Desktop\ForWhile\server\ForWhile.ServiceDefaults\obj\Debug\net8.0\ForWhile.ServiceDefaults.AssemblyInfoInputs.cache
+C:\Users\ThanhNghia\Desktop\ForWhile\server\ForWhile.ServiceDefaults\obj\Debug\net8.0\ForWhile.ServiceDefaults.AssemblyInfo.cs
+C:\Users\ThanhNghia\Desktop\ForWhile\server\ForWhile.ServiceDefaults\obj\Debug\net8.0\ForWhile.ServiceDefaults.csproj.CoreCompileInputs.cache
+C:\Users\ThanhNghia\Desktop\ForWhile\server\ForWhile.ServiceDefaults\obj\Debug\net8.0\ForWhile.ServiceDefaults.sourcelink.json
+C:\Users\ThanhNghia\Desktop\ForWhile\server\ForWhile.ServiceDefaults\obj\Debug\net8.0\ForWhile.ServiceDefaults.dll
+C:\Users\ThanhNghia\Desktop\ForWhile\server\ForWhile.ServiceDefaults\obj\Debug\net8.0\refint\ForWhile.ServiceDefaults.dll
+C:\Users\ThanhNghia\Desktop\ForWhile\server\ForWhile.ServiceDefaults\obj\Debug\net8.0\ForWhile.ServiceDefaults.pdb
+C:\Users\ThanhNghia\Desktop\ForWhile\server\ForWhile.ServiceDefaults\obj\Debug\net8.0\ref\ForWhile.ServiceDefaults.dll

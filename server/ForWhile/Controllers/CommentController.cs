@@ -53,7 +53,7 @@ namespace ForWhile.Controllers
                 {
                     Id = c.Id,
                     Content = c.Content,
-                    AuthorUsername = c.Author.UserName,
+                    Author = c.Author.UserName,
                     //TODO avatar ??
                     PostId = c.PostId,
                     Upvote = c.Upvotes.Count(),

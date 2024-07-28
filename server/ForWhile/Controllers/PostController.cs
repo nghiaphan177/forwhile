@@ -65,16 +65,18 @@ namespace ForWhile.Controllers
                 TopComments = post.Comments.OrderByDescending(c => c.Upvotes.Count(uv => uv.Status == UpvoteStatus.Upvoted))
                                 .Take(10)
                                 .Select(c =>
-                                    new
+                                {
+                                    var author = c.Author;
+                                    return new
                                     {
                                         Id = c.Id,
-                                        Author = c.Author.UserName,
+                                        Author = author.UserName,
                                         Content = c.Content,
                                         Upvote = c.Upvotes.Count(uv => uv.Status == UpvoteStatus.Upvoted),
                                         CreatedAt = c.CreatedAt.ToString("o"),
-                                        //UpdatedAt = c.UpdatedAt.ToString("o")
-                                    }
-                                )
+                                        UpdatedAt = c.UpdatedAt.ToString("o")
+                                    };
+                                })
             };
 
             return Ok(result);
@@ -94,23 +96,22 @@ namespace ForWhile.Controllers
             {
                 OrderType.MostVotes => p => p.Upvotes.Count(x => x.CommentId == null),
                 OrderType.Recent => p => p.CreatedAt,
-                //TODO OrderType.MostView => p => p.Views, 
+                OrderType.MostView => p => p.View,
                 _ => p => p.Upvotes.Count(x => x.CommentId == null)
             };
 
-            var pageResults = await _postRepository.GetAllAsync(
-                predicate: predicate,
-                orderBy: orderBy,
-                sortDirection: request.SortDirection,
-                pageIndex: request.PageNumber,
-                pageSize: request.PageSize,
-                p => p.Author,
-                p => p.Upvotes,
-                p => p.PostTags,
-                p => p.Comments
-            );
+            IQueryable<Post> query = _postRepository.GetAll()
+                                    .Include(p => p.Author)
+                                    .Include(p => p.PostTags)
+                                        .ThenInclude(pt => pt.Tag)
+                                    .Include(p => p.Comments)
+                                        .ThenInclude(c => c.Author)
+                                    .Include(p => p.Upvotes);
 
-            var result = pageResults.Items.Select(p =>
+            var pageResult = await _postRepository.GetAllAsync(query, predicate, orderBy,
+                                                        request.SortDirection, request.PageNumber, request.PageSize);
+
+            var result = pageResult.Items.Select(p =>
             {
 
                 var lastComment = p.Comments.OrderByDescending(c => c.CreatedAt).FirstOrDefault();
@@ -121,13 +122,14 @@ namespace ForWhile.Controllers
                     CreatedAt = p.CreatedAt.ToString("o"),
                     Author = p.Author.UserName,
                     Vote = p.Upvotes.Count(x => x.CommentId == null),
+                    View = p.View,
                     Tags = p.PostTags?.Select(pt => pt.Tag.Name).ToList(),
                     LastCommentAuthor = lastComment?.Author.UserName,
                     LastCommentCreatedAt = lastComment?.CreatedAt.ToString("o"),
                 };
             });
 
-            return Ok(new { posts = result, totalPages = pageResults.TotalPages });
+            return Ok(new { posts = result, totalPages = pageResult.TotalPages });
         }
 
         // POST: api/Post

@@ -6,6 +6,8 @@ namespace ForWhile.Domain.Repository.Interface
 {
     public interface IRepository<T> where T : UniqueEntity
     {
+        Task<T?> GetByIdAsync(int id, IQueryable<T> query);
+
         Task<T?> GetByIdAsync(int id, params Expression<Func<T, object>>[] includeProperties);
 
         Task<T?> GetSingleAsync(Expression<Func<T, bool>> predicate);
@@ -16,6 +18,9 @@ namespace ForWhile.Domain.Repository.Interface
 
         Task<PagedResult<T>> GetAllAsync(Expression<Func<T, bool>> predicate, Expression<Func<T, object>> orderBy,
             SortDirection sortDirection, int pageIndex, int pageSize, params Expression<Func<T, object>>[] includeProperties);
+
+        Task<PagedResult<T>> GetAllAsync(IQueryable<T> query, Expression<Func<T, bool>> predicate, Expression<Func<T, object>> orderBy,
+            SortDirection sortDirection, int pageIndex, int pageSize);
 
         Task AddAsync(T entity);
 

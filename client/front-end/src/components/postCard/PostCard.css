@@ -1,0 +1,40 @@
+.post-card {
+    display: flex;
+    border: 1px solid #e1e1e1;
+    padding: 1rem;
+    margin-bottom: 1rem;
+  }
+  
+  .post-content {
+    flex-grow: 1;
+    margin-left: 1rem;
+  }
+  
+  .post-title {
+    font-weight: bold;
+    font-size: 1.25rem;
+  }
+  
+  .post-meta {
+    font-size: 0.875rem;
+    color: #6c757d;
+  }
+  
+  .post-tags {
+    margin-top: 0.5rem;
+  }
+  
+  .post-stats {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-left: 1rem;
+  }
+  
+  .vote-count {
+    display: flex;
+    align-items: center;
+    margin-bottom: 0.5rem;
+  }
+  
