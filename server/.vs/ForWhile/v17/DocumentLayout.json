@@ -169,35 +169,11 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 6,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "ApplicationDbContext.cs",
-              "DocumentMoniker": "C:\\Users\\ThanhNghia\\Desktop\\ForWhile\\server\\ForWhile\\EF\\ApplicationDbContext.cs",
-              "RelativeDocumentMoniker": "ForWhile\\EF\\ApplicationDbContext.cs",
-              "ToolTip": "C:\\Users\\ThanhNghia\\Desktop\\ForWhile\\server\\ForWhile\\EF\\ApplicationDbContext.cs",
-              "RelativeToolTip": "ForWhile\\EF\\ApplicationDbContext.cs",
-              "ViewState": "AQIAADMAAAAAAAAAAAAAwEQAAAAoAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-23T09:19:09.007Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "PostController.cs",
-              "DocumentMoniker": "C:\\Users\\ThanhNghia\\Desktop\\ForWhile\\server\\ForWhile\\Controllers\\PostController.cs",
-              "RelativeDocumentMoniker": "ForWhile\\Controllers\\PostController.cs",
-              "ToolTip": "C:\\Users\\ThanhNghia\\Desktop\\ForWhile\\server\\ForWhile\\Controllers\\PostController.cs",
-              "RelativeToolTip": "ForWhile\\Controllers\\PostController.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAH4AAABFAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-24T11:07:48.231Z"
             },
             {
               "$type": "Document",
@@ -221,8 +197,7 @@
               "RelativeToolTip": "ForWhile\\Controllers\\CommentController.cs",
               "ViewState": "AQIAAC0AAAAAAAAAAAAYwDoAAAAvAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-26T11:21:34.176Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-07-26T11:21:34.176Z"
             },
             {
               "$type": "Document",
@@ -244,10 +219,34 @@
               "RelativeDocumentMoniker": "ForWhile\\Program.cs",
               "ToolTip": "C:\\Users\\ThanhNghia\\Desktop\\ForWhile\\server\\ForWhile\\Program.cs",
               "RelativeToolTip": "ForWhile\\Program.cs",
-              "ViewState": "AQIAAFwAAAAAAAAAAAAYwGwAAAAVAAAA",
+              "ViewState": "AQIAAFYAAAAAAAAAAAAYwGcAAAAaAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-07-23T09:35:40.729Z",
               "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "PostController.cs",
+              "DocumentMoniker": "C:\\Users\\ThanhNghia\\Desktop\\ForWhile\\server\\ForWhile\\Controllers\\PostController.cs",
+              "RelativeDocumentMoniker": "ForWhile\\Controllers\\PostController.cs",
+              "ToolTip": "C:\\Users\\ThanhNghia\\Desktop\\ForWhile\\server\\ForWhile\\Controllers\\PostController.cs",
+              "RelativeToolTip": "ForWhile\\Controllers\\PostController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAH4AAABFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-24T11:07:48.231Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "ApplicationDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\ThanhNghia\\Desktop\\ForWhile\\server\\ForWhile\\EF\\ApplicationDbContext.cs",
+              "RelativeDocumentMoniker": "ForWhile\\EF\\ApplicationDbContext.cs",
+              "ToolTip": "C:\\Users\\ThanhNghia\\Desktop\\ForWhile\\server\\ForWhile\\EF\\ApplicationDbContext.cs",
+              "RelativeToolTip": "ForWhile\\EF\\ApplicationDbContext.cs",
+              "ViewState": "AQIAADMAAAAAAAAAAAAAwEQAAAAoAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-23T09:19:09.007Z"
             },
             {
               "$type": "Document",
