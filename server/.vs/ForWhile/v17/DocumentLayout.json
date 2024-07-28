@@ -3,6 +3,10 @@
   "WorkspaceRootPath": "C:\\Users\\ThanhNghia\\Desktop\\ForWhile\\server\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{4B53C1D2-8446-4547-A12A-26C371A55E6A}|ForWhile\\ForWhile.csproj|c:\\users\\thanhnghia\\desktop\\forwhile\\server\\forwhile\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4B53C1D2-8446-4547-A12A-26C371A55E6A}|ForWhile\\ForWhile.csproj|solutionrelative:forwhile\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{4B53C1D2-8446-4547-A12A-26C371A55E6A}|ForWhile\\ForWhile.csproj|c:\\users\\thanhnghia\\desktop\\forwhile\\server\\forwhile\\controllers\\commentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{4B53C1D2-8446-4547-A12A-26C371A55E6A}|ForWhile\\ForWhile.csproj|solutionrelative:forwhile\\controllers\\commentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -11,24 +15,12 @@
       "RelativeMoniker": "D:0:0:{4B53C1D2-8446-4547-A12A-26C371A55E6A}|ForWhile\\ForWhile.csproj|solutionrelative:forwhile\\controllers\\postcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{91BFCD74-EB64-444F-998E-1E087CC9BCDD}|docker-compose.dcproj|c:\\users\\thanhnghia\\desktop\\forwhile\\server\\docker-compose.yml||{8B382828-6202-11D1-8870-0000F87579D2}",
-      "RelativeMoniker": "D:0:0:{91BFCD74-EB64-444F-998E-1E087CC9BCDD}|docker-compose.dcproj|solutionrelative:docker-compose.yml||{8B382828-6202-11D1-8870-0000F87579D2}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{4B53C1D2-8446-4547-A12A-26C371A55E6A}|ForWhile\\ForWhile.csproj|c:\\users\\thanhnghia\\desktop\\forwhile\\server\\forwhile\\domain\\repository\\repository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{4B53C1D2-8446-4547-A12A-26C371A55E6A}|ForWhile\\ForWhile.csproj|solutionrelative:forwhile\\domain\\repository\\repository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4B53C1D2-8446-4547-A12A-26C371A55E6A}|ForWhile\\ForWhile.csproj|c:\\users\\thanhnghia\\desktop\\forwhile\\server\\forwhile\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4B53C1D2-8446-4547-A12A-26C371A55E6A}|ForWhile\\ForWhile.csproj|solutionrelative:forwhile\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{4B53C1D2-8446-4547-A12A-26C371A55E6A}|ForWhile\\ForWhile.csproj|c:\\users\\thanhnghia\\desktop\\forwhile\\server\\forwhile\\domain\\repository\\interface\\irepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{4B53C1D2-8446-4547-A12A-26C371A55E6A}|ForWhile\\ForWhile.csproj|solutionrelative:forwhile\\domain\\repository\\interface\\irepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{91BFCD74-EB64-444F-998E-1E087CC9BCDD}|docker-compose.dcproj|c:\\users\\thanhnghia\\desktop\\forwhile\\server\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{91BFCD74-EB64-444F-998E-1E087CC9BCDD}|docker-compose.dcproj|solutionrelative:launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{4B53C1D2-8446-4547-A12A-26C371A55E6A}|ForWhile\\ForWhile.csproj|c:\\users\\thanhnghia\\desktop\\forwhile\\server\\forwhile\\domain\\entities\\comment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -177,7 +169,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 6,
           "Children": [
             {
               "$type": "Bookmark",
@@ -185,7 +177,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 6,
               "Title": "ApplicationDbContext.cs",
               "DocumentMoniker": "C:\\Users\\ThanhNghia\\Desktop\\ForWhile\\server\\ForWhile\\EF\\ApplicationDbContext.cs",
               "RelativeDocumentMoniker": "ForWhile\\EF\\ApplicationDbContext.cs",
@@ -193,12 +185,11 @@
               "RelativeToolTip": "ForWhile\\EF\\ApplicationDbContext.cs",
               "ViewState": "AQIAADMAAAAAAAAAAAAAwEQAAAAoAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-23T09:19:09.007Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-07-23T09:19:09.007Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "PostController.cs",
               "DocumentMoniker": "C:\\Users\\ThanhNghia\\Desktop\\ForWhile\\server\\ForWhile\\Controllers\\PostController.cs",
               "RelativeDocumentMoniker": "ForWhile\\Controllers\\PostController.cs",
@@ -206,8 +197,7 @@
               "RelativeToolTip": "ForWhile\\Controllers\\PostController.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAH4AAABFAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-24T11:07:48.231Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-07-24T11:07:48.231Z"
             },
             {
               "$type": "Document",
@@ -219,12 +209,11 @@
               "RelativeToolTip": "ForWhile\\Domain\\Repository\\Repository.cs",
               "ViewState": "AQIAAEUAAAAAAAAAAAAWwE0AAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-23T16:07:12.841Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-07-23T16:07:12.841Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "CommentController.cs",
               "DocumentMoniker": "C:\\Users\\ThanhNghia\\Desktop\\ForWhile\\server\\ForWhile\\Controllers\\CommentController.cs",
               "RelativeDocumentMoniker": "ForWhile\\Controllers\\CommentController.cs",
@@ -237,7 +226,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 4,
               "Title": "IRepository.cs",
               "DocumentMoniker": "C:\\Users\\ThanhNghia\\Desktop\\ForWhile\\server\\ForWhile\\Domain\\Repository\\Interface\\IRepository.cs",
               "RelativeDocumentMoniker": "ForWhile\\Domain\\Repository\\Interface\\IRepository.cs",
@@ -245,51 +234,24 @@
               "RelativeToolTip": "ForWhile\\Domain\\Repository\\Interface\\IRepository.cs",
               "ViewState": "AQIAAAoAAAAAAAAAAAAQwBkAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-27T14:55:51.328Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-07-27T14:55:51.328Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 0,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\ThanhNghia\\Desktop\\ForWhile\\server\\ForWhile\\Program.cs",
               "RelativeDocumentMoniker": "ForWhile\\Program.cs",
               "ToolTip": "C:\\Users\\ThanhNghia\\Desktop\\ForWhile\\server\\ForWhile\\Program.cs",
               "RelativeToolTip": "ForWhile\\Program.cs",
-              "ViewState": "AQIAADAAAAAAAAAAAAAewD0AAAAEAAAA",
+              "ViewState": "AQIAAFwAAAAAAAAAAAAYwGwAAAAVAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-07-23T09:35:40.729Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "docker-compose.yml",
-              "DocumentMoniker": "C:\\Users\\ThanhNghia\\Desktop\\ForWhile\\server\\docker-compose.yml",
-              "RelativeDocumentMoniker": "docker-compose.yml",
-              "ToolTip": "C:\\Users\\ThanhNghia\\Desktop\\ForWhile\\server\\docker-compose.yml",
-              "RelativeToolTip": "docker-compose.yml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003775|",
-              "WhenOpened": "2024-07-28T09:08:14.319Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "launchSettings.json",
-              "DocumentMoniker": "C:\\Users\\ThanhNghia\\Desktop\\ForWhile\\server\\launchSettings.json",
-              "RelativeDocumentMoniker": "launchSettings.json",
-              "ToolTip": "C:\\Users\\ThanhNghia\\Desktop\\ForWhile\\server\\launchSettings.json",
-              "RelativeToolTip": "launchSettings.json",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-07-28T09:08:13.095Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 7,
               "Title": "User.cs",
               "DocumentMoniker": "C:\\Users\\ThanhNghia\\Desktop\\ForWhile\\server\\ForWhile\\Domain\\Entities\\User.cs",
               "RelativeDocumentMoniker": "ForWhile\\Domain\\Entities\\User.cs",
@@ -301,7 +263,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 8,
               "Title": "Upvote.cs",
               "DocumentMoniker": "C:\\Users\\ThanhNghia\\Desktop\\ForWhile\\server\\ForWhile\\Domain\\Entities\\Upvote.cs",
               "RelativeDocumentMoniker": "ForWhile\\Domain\\Entities\\Upvote.cs",
@@ -313,7 +275,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 9,
               "Title": "Tag.cs",
               "DocumentMoniker": "C:\\Users\\ThanhNghia\\Desktop\\ForWhile\\server\\ForWhile\\Domain\\Entities\\Tag.cs",
               "RelativeDocumentMoniker": "ForWhile\\Domain\\Entities\\Tag.cs",
@@ -325,7 +287,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 5,
               "Title": "Comment.cs",
               "DocumentMoniker": "C:\\Users\\ThanhNghia\\Desktop\\ForWhile\\server\\ForWhile\\Domain\\Entities\\Comment.cs",
               "RelativeDocumentMoniker": "ForWhile\\Domain\\Entities\\Comment.cs",
@@ -337,7 +299,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 10,
               "Title": "PostType.cs",
               "DocumentMoniker": "C:\\Users\\ThanhNghia\\Desktop\\ForWhile\\server\\ForWhile\\Domain\\Entities\\PostType.cs",
               "RelativeDocumentMoniker": "ForWhile\\Domain\\Entities\\PostType.cs",
@@ -349,7 +311,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 11,
               "Title": "PostTag.cs",
               "DocumentMoniker": "C:\\Users\\ThanhNghia\\Desktop\\ForWhile\\server\\ForWhile\\Domain\\Entities\\PostTag.cs",
               "RelativeDocumentMoniker": "ForWhile\\Domain\\Entities\\PostTag.cs",
@@ -361,7 +323,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 13,
               "Title": "PostCreateRequest.cs",
               "DocumentMoniker": "C:\\Users\\ThanhNghia\\Desktop\\ForWhile\\server\\ForWhile\\ViewModels\\Requests\\Post\\PostCreateRequest.cs",
               "RelativeDocumentMoniker": "ForWhile\\ViewModels\\Requests\\Post\\PostCreateRequest.cs",
@@ -373,7 +335,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 12,
               "Title": "Post.cs",
               "DocumentMoniker": "C:\\Users\\ThanhNghia\\Desktop\\ForWhile\\server\\ForWhile\\Domain\\Entities\\Post.cs",
               "RelativeDocumentMoniker": "ForWhile\\Domain\\Entities\\Post.cs",
@@ -385,7 +347,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 14,
               "Title": "AccountController.cs",
               "DocumentMoniker": "C:\\Users\\ThanhNghia\\Desktop\\ForWhile\\server\\ForWhile\\Controllers\\AccountController.cs",
               "RelativeDocumentMoniker": "ForWhile\\Controllers\\AccountController.cs",
@@ -397,7 +359,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 15,
               "Title": "UserController.cs",
               "DocumentMoniker": "C:\\Users\\ThanhNghia\\Desktop\\ForWhile\\server\\ForWhile\\Controllers\\UserController.cs",
               "RelativeDocumentMoniker": "ForWhile\\Controllers\\UserController.cs",
@@ -409,7 +371,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 16,
               "Title": "UpvoteStatus.cs",
               "DocumentMoniker": "C:\\Users\\ThanhNghia\\Desktop\\ForWhile\\server\\ForWhile\\Domain\\Enums\\UpvoteStatus.cs",
               "RelativeDocumentMoniker": "ForWhile\\Domain\\Enums\\UpvoteStatus.cs",
@@ -421,7 +383,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
+              "DocumentIndex": 18,
               "Title": "UpvoteController.cs",
               "DocumentMoniker": "C:\\Users\\ThanhNghia\\Desktop\\ForWhile\\server\\ForWhile\\Controllers\\UpvoteController.cs",
               "RelativeDocumentMoniker": "ForWhile\\Controllers\\UpvoteController.cs",
@@ -433,7 +395,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 17,
               "Title": "PagedResult.cs",
               "DocumentMoniker": "C:\\Users\\ThanhNghia\\Desktop\\ForWhile\\server\\ForWhile\\Domain\\Repository\\PagedResult.cs",
               "RelativeDocumentMoniker": "ForWhile\\Domain\\Repository\\PagedResult.cs",
@@ -445,7 +407,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 21,
+              "DocumentIndex": 19,
               "Title": "appsettings.json",
               "DocumentMoniker": "C:\\Users\\ThanhNghia\\Desktop\\ForWhile\\server\\ForWhile\\appsettings.json",
               "RelativeDocumentMoniker": "ForWhile\\appsettings.json",
@@ -457,7 +419,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 22,
+              "DocumentIndex": 20,
               "Title": "SortDirection.cs",
               "DocumentMoniker": "C:\\Users\\ThanhNghia\\Desktop\\ForWhile\\server\\ForWhile\\Domain\\Enums\\SortDirection.cs",
               "RelativeDocumentMoniker": "ForWhile\\Domain\\Enums\\SortDirection.cs",
@@ -469,7 +431,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 23,
+              "DocumentIndex": 21,
               "Title": "OrderType.cs",
               "DocumentMoniker": "C:\\Users\\ThanhNghia\\Desktop\\ForWhile\\server\\ForWhile\\Domain\\Enums\\OrderType.cs",
               "RelativeDocumentMoniker": "ForWhile\\Domain\\Enums\\OrderType.cs",
@@ -481,7 +443,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 25,
+              "DocumentIndex": 23,
               "Title": "PostsGetRequest.cs",
               "DocumentMoniker": "C:\\Users\\ThanhNghia\\Desktop\\ForWhile\\server\\ForWhile\\ViewModels\\Requests\\Post\\PostsGetRequest.cs",
               "RelativeDocumentMoniker": "ForWhile\\ViewModels\\Requests\\Post\\PostsGetRequest.cs",
@@ -493,7 +455,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 27,
+              "DocumentIndex": 25,
               "Title": "CommentCreateRequest.cs",
               "DocumentMoniker": "C:\\Users\\ThanhNghia\\Desktop\\ForWhile\\server\\ForWhile\\ViewModels\\Requests\\Comment\\CommentCreateRequest.cs",
               "RelativeDocumentMoniker": "ForWhile\\ViewModels\\Requests\\Comment\\CommentCreateRequest.cs",
@@ -505,7 +467,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 24,
+              "DocumentIndex": 22,
               "Title": "BasePageRequest.cs",
               "DocumentMoniker": "C:\\Users\\ThanhNghia\\Desktop\\ForWhile\\server\\ForWhile\\ViewModels\\Requests\\BasePageRequest.cs",
               "RelativeDocumentMoniker": "ForWhile\\ViewModels\\Requests\\BasePageRequest.cs",
@@ -517,7 +479,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 26,
+              "DocumentIndex": 24,
               "Title": "UpvoteRequest.cs",
               "DocumentMoniker": "C:\\Users\\ThanhNghia\\Desktop\\ForWhile\\server\\ForWhile\\ViewModels\\Requests\\Upvote\\UpvoteRequest.cs",
               "RelativeDocumentMoniker": "ForWhile\\ViewModels\\Requests\\Upvote\\UpvoteRequest.cs",
@@ -529,7 +491,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 28,
+              "DocumentIndex": 26,
               "Title": "CommentUpdateRequest.cs",
               "DocumentMoniker": "C:\\Users\\ThanhNghia\\Desktop\\ForWhile\\server\\ForWhile\\ViewModels\\Requests\\Comment\\CommentUpdateRequest.cs",
               "RelativeDocumentMoniker": "ForWhile\\ViewModels\\Requests\\Comment\\CommentUpdateRequest.cs",
@@ -541,7 +503,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 29,
+              "DocumentIndex": 27,
               "Title": "CommentsGetRequest.cs",
               "DocumentMoniker": "C:\\Users\\ThanhNghia\\Desktop\\ForWhile\\server\\ForWhile\\ViewModels\\Requests\\Comment\\CommentsGetRequest.cs",
               "RelativeDocumentMoniker": "ForWhile\\ViewModels\\Requests\\Comment\\CommentsGetRequest.cs",
@@ -553,7 +515,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 30,
+              "DocumentIndex": 28,
               "Title": "PostUpdateRequest.cs",
               "DocumentMoniker": "C:\\Users\\ThanhNghia\\Desktop\\ForWhile\\server\\ForWhile\\ViewModels\\Requests\\Post\\PostUpdateRequest.cs",
               "RelativeDocumentMoniker": "ForWhile\\ViewModels\\Requests\\Post\\PostUpdateRequest.cs",
@@ -565,7 +527,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 32,
+              "DocumentIndex": 30,
               "Title": "AccountLoginRequest.cs",
               "DocumentMoniker": "C:\\Users\\ThanhNghia\\Desktop\\ForWhile\\server\\ForWhile\\ViewModels\\Requests\\Account\\AccountLoginRequest.cs",
               "RelativeDocumentMoniker": "ForWhile\\ViewModels\\Requests\\Account\\AccountLoginRequest.cs",
@@ -577,7 +539,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 31,
+              "DocumentIndex": 29,
               "Title": "ClaimsExtension.cs",
               "DocumentMoniker": "C:\\Users\\ThanhNghia\\Desktop\\ForWhile\\server\\ForWhile\\Extensions\\ClaimsExtension.cs",
               "RelativeDocumentMoniker": "ForWhile\\Extensions\\ClaimsExtension.cs",
@@ -589,7 +551,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 34,
+              "DocumentIndex": 32,
               "Title": "IdentityUser.cs",
               "DocumentMoniker": "C:\\Users\\ThanhNghia\\AppData\\Local\\SourceServer\\a65f161153b162d075c3e3ae5295e78199463a56dc845257e9a0892d48161b85\\IdentityUser.cs",
               "RelativeDocumentMoniker": "..\\..\\..\\AppData\\Local\\SourceServer\\a65f161153b162d075c3e3ae5295e78199463a56dc845257e9a0892d48161b85\\IdentityUser.cs",
@@ -601,7 +563,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 33,
+              "DocumentIndex": 31,
               "Title": "TokenService.cs",
               "DocumentMoniker": "C:\\Users\\ThanhNghia\\Desktop\\ForWhile\\server\\ForWhile\\Services\\TokenService.cs",
               "RelativeDocumentMoniker": "ForWhile\\Services\\TokenService.cs",
@@ -613,7 +575,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 35,
+              "DocumentIndex": 33,
               "Title": "ITokenService.cs",
               "DocumentMoniker": "C:\\Users\\ThanhNghia\\Desktop\\ForWhile\\server\\ForWhile\\Services\\Interface\\ITokenService.cs",
               "RelativeDocumentMoniker": "ForWhile\\Services\\Interface\\ITokenService.cs",
@@ -625,7 +587,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 36,
+              "DocumentIndex": 34,
               "Title": "AccountRegisterRequest.cs",
               "DocumentMoniker": "C:\\Users\\ThanhNghia\\Desktop\\ForWhile\\server\\ForWhile\\ViewModels\\Requests\\Account\\AccountRegisterRequest.cs",
               "RelativeDocumentMoniker": "ForWhile\\ViewModels\\Requests\\Account\\AccountRegisterRequest.cs",
@@ -637,7 +599,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 37,
+              "DocumentIndex": 35,
               "Title": "PostTagRepository.cs",
               "DocumentMoniker": "C:\\Users\\ThanhNghia\\Desktop\\ForWhile\\server\\ForWhile\\Domain\\Repository\\PostTagRepository.cs",
               "RelativeDocumentMoniker": "ForWhile\\Domain\\Repository\\PostTagRepository.cs",
@@ -649,7 +611,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 38,
+              "DocumentIndex": 36,
               "Title": "launchSettings.json",
               "DocumentMoniker": "C:\\Users\\ThanhNghia\\Desktop\\ForWhile\\server\\ForWhile\\Properties\\launchSettings.json",
               "RelativeDocumentMoniker": "ForWhile\\Properties\\launchSettings.json",
@@ -661,7 +623,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 39,
+              "DocumentIndex": 37,
               "Title": "ForWhile.http",
               "DocumentMoniker": "C:\\Users\\ThanhNghia\\Desktop\\ForWhile\\server\\ForWhile\\ForWhile.http",
               "RelativeDocumentMoniker": "ForWhile\\ForWhile.http",
@@ -673,7 +635,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 40,
+              "DocumentIndex": 38,
               "Title": "appsettings.Development.json",
               "DocumentMoniker": "C:\\Users\\ThanhNghia\\Desktop\\ForWhile\\server\\ForWhile\\appsettings.Development.json",
               "RelativeDocumentMoniker": "ForWhile\\appsettings.Development.json",
@@ -685,7 +647,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 41,
+              "DocumentIndex": 39,
               "Title": "IPostTagRepository.cs",
               "DocumentMoniker": "C:\\Users\\ThanhNghia\\Desktop\\ForWhile\\server\\ForWhile\\Domain\\Repository\\Interface\\IPostTagRepository.cs",
               "RelativeDocumentMoniker": "ForWhile\\Domain\\Repository\\Interface\\IPostTagRepository.cs",

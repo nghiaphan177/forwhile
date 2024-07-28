@@ -1,0 +1,39 @@
+services:
+  forwhile:
+    build:
+      args:
+        BUILD_CONFIGURATION: Release
+      context: C:\Users\ThanhNghia\Desktop\ForWhile\server
+      dockerfile: ForWhile/Dockerfile
+      labels:
+        com.microsoft.created-by: visual-studio
+        com.microsoft.visual-studio.project-name: ForWhile
+    container_name: ForWhile
+    entrypoint: dotnet --roll-forward Major /VSTools/DistrolessHelper/DistrolessHelper.dll
+      --wait
+    environment:
+      ASPNETCORE_ENVIRONMENT: Development
+      ASPNETCORE_HTTPS_PORTS: '8081'
+      ASPNETCORE_HTTP_PORTS: '8080'
+    image: forwhile
+    labels:
+      com.microsoft.visual-studio.project-name: ForWhile
+      com.microsoft.visualstudio.debuggee.arguments: ' --additionalProbingPath /.nuget/packages
+        --additionalProbingPath /.nuget/fallbackpackages  "/app/ForWhile.dll"'
+      com.microsoft.visualstudio.debuggee.killprogram: dotnet --roll-forward Major
+        /VSTools/DistrolessHelper/DistrolessHelper.dll --stop dotnet
+      com.microsoft.visualstudio.debuggee.program: dotnet
+      com.microsoft.visualstudio.debuggee.workingdirectory: /app
+    ports:
+    - target: 8080
+    - target: 8081
+    tty: true
+    volumes:
+    - C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\HotReload:/HotReloadAgent:ro
+    - C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Sdks\Microsoft.Docker.Sdk\tools\linux-x64\net8.0:/VSTools:ro
+    - C:\Users\ThanhNghia\AppData\Roaming\ASP.NET\Https:/home/app/.aspnet/https:ro
+    - C:\Users\ThanhNghia\AppData\Roaming\Microsoft\UserSecrets:/home/app/.microsoft/usersecrets:ro
+    - C:\Users\ThanhNghia\vsdbg\vs2017u5:/remote_debugger:rw
+    - C:\Users\ThanhNghia\AppData\Roaming\ASP.NET\Https:/root/.aspnet/https:ro
+    - C:\Users\ThanhNghia\AppData\Roaming\Microsoft\UserSecrets:/root/.microsoft/usersecrets:ro
+version: '3.4'

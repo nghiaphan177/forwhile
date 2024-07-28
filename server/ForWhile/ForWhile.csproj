@@ -28,8 +28,4 @@
     <Folder Include="EF\Migrations\" />
   </ItemGroup>
 
-  <ItemGroup>
-    <ProjectReference Include="..\ForWhile.ServiceDefaults\ForWhile.ServiceDefaults.csproj" />
-  </ItemGroup>
-
 </Project>
